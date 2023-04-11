@@ -1,0 +1,1 @@
+{"name":"Local: quiz","url":"d:\\C VS Code\\Practice\\quiz.c","tests":[{"id":1681237606988,"input":"90 24 89","output":"57"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C VS Code\\Practice\\quiz.c","group":"local","local":true}

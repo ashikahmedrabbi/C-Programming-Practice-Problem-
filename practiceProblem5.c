@@ -1,21 +1,22 @@
 #include <stdio.h>
 int main()
 {
-    int taka;
-    scanf("%d ", &taka);
-    if (taka > 10000)
+    int n;
+    scanf("%d", &n);
+    if (n > 1000)
     {
-        printf("Gucci Bag");
-        if (taka > 20000)
+        printf("I will buy Punjabi\n");
+        int sub = 1000 - n;
+        if (500 <= sub)
         {
-            printf("\nGucci Belt");
+            printf("I will buy new shoes\n");
+            printf("Alisa will buy new shoes\n");
         }
     }
-    else if (taka > 5000)
-    {
-        printf("Levis Bag");
-    }
     else
-        printf("Something");
+    {
+        printf("Bad luck!");
+    }
+
     return 0;
 }
